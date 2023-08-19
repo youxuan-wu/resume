@@ -200,7 +200,105 @@
   .main .main_left {
     height: 50%;
   }
-  .content .right {
+  .content {
+    display: inline;
+    margin: 0 auto;
+    height: 800px;
+    max-width: 780px;
+  }
+  .content .left {
     display: none;
+  }
+  .content .mid {
+    background-color: #FFFBEC;
+    margin: 0 0;
+    height: 900px;
+    width: 480px;
+  }
+  .content .mid > div > p {
+    color: #6E3500;
+    font-size: 24px;
+    margin: 35px 45px;
+  }
+  .content .mid > div .wrap1 {
+    display: flex; /*宣告為彈性佈局元素*/
+    flex-wrap: wrap;
+    padding: 0 40px;
+  }
+  .content .mid > div .wrap1 > div {
+    width: 20%;
+    text-align: center;
+  }
+  .content .mid > div .wrap1 > div > img {
+    width: 50px;
+    height: 50px;
+  }
+  .content .mid > div .wrap1 > div > p {
+    color: #6E3500;
+    height: 10px;
+  }
+  .content .mid > div .wrap2 {
+    color: #6E3500;
+    width: 415px;
+    margin: 0 40px 40px 40px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+  }
+  .content .mid > div .wrap2 > p {
+    color: #fff;
+    background-color: #FFAA64;
+    border-radius: 5px;
+    width: 380px;
+    height: 6%;
+    padding: 15px;
+    margin: -15px 10px 30px 0;
+    letter-spacing: 0px;
+    line-height: 26px;
+  }
+  .content .mid > div .wrap3 {
+    display: flex; /*宣告為彈性佈局元素*/
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .content .mid > div .wrap3 > div {
+    width: 150px;
+    margin: -20px 40px 15px 40px;
+  }
+  .content .mid > div .wrap3 > div > img {
+    width: 100px;
+    height: 100px;
+  }
+  .content .mid > div .wrap3 > div > div > a {
+    color: #6E3500;
+  }
+  .content .right {
+    background-color: #FFDCBB;
+    margin: 0 0;
+    height: 900px;
+    width: 240px;
+  }
+  .content .right > p {
+    color: #6E3500;
+    font-size: 24px;
+    margin: 70px 45px 10px 30px;
+  }
+  .content .right > .wrap4 {
+    color: #6E3500;
+    font-size: 14px;
+    margin: 10px 40px 80px 30px;
+    width: 200px;
+  }
+  .content .right > .wrap5 {
+    color: #6E3500;
+    font-size: 14px;
+    margin: 0 25px 90px 30px;
+    width: 200px;
+  }
+  .content .right > .wrap6 {
+    color: #6E3500;
+    font-size: 14px;
+    margin: 0 25px 70px 30px;
+    width: 200px;
   }
 }/*# sourceMappingURL=main.css.map */

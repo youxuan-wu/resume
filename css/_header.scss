@@ -221,11 +221,126 @@
         .main_left{
             height: 50%;
         }
-
-        
-
     }
-    .content .right{
-        display: none;
+
+
+    .content{
+        display: inline;
+        margin: 0 auto;
+        height: 800px;
+        max-width: 780px;
+    
+        .left{
+            display: none;
+        }
+    
+        .mid{
+            background-color: #FFFBEC;
+            margin: 0 0;
+            height: 900px;
+            width: 480px;
+    
+            >div{
+                >p{
+                    color: #6E3500;
+                    font-size: 24px;
+                    margin: 35px 45px;
+                }
+    
+                .wrap1{
+                    display: flex; /*宣告為彈性佈局元素*/
+                    flex-wrap: wrap;
+                    padding: 0 40px;
+                    >div{
+                        width: 20%;
+                        text-align: center;
+                        >img{
+                            width: 50px;
+                            height: 50px;
+                        }
+                        >p{
+                            color: #6E3500;
+                            height: 10px;
+                        }
+                    }
+                }
+    
+                .wrap2{
+                    color: #6E3500;
+                    width: 415px;
+                    margin: 0 40px 40px 40px;
+                    font-size: 18px;
+                    letter-spacing: 0.5px;
+                    line-height: 24px;
+    
+                    >p{
+                        color: #fff;
+                        background-color: #FFAA64;
+                        border-radius: 5px;
+                        width: 380px;
+                        height: 6%;
+                        padding: 15px;
+                        margin: -15px 10px 30px 0;
+                        letter-spacing: 0px;
+                        line-height: 26px;
+                    }
+                }
+    
+                .wrap3{
+                    display: flex; /*宣告為彈性佈局元素*/
+                    flex-wrap: wrap;
+                    // padding: 0 3px;
+                    text-align: center;
+    
+                    >div{
+                        width: 150px;
+                        margin: -20px 40px 15px 40px;
+                        >img{
+                            width: 100px;
+                            height: 100px;
+                        }
+                        >div>a{
+                            color: #6E3500;
+                        }
+                    }
+                }
+            }
+        }
+        .right{
+            background-color: #FFDCBB;
+            margin: 0 0;
+            height: 900px;
+            width: 240px;
+            >p{
+                color: #6E3500;
+                font-size: 24px;
+                margin: 70px 45px 10px 30px;
+            }
+    
+            >.wrap4{
+                color: #6E3500;
+                font-size: 14px;
+                margin: 10px 40px 80px 30px;
+                width: 200px;
+            }
+    
+            >.wrap5{
+                color: #6E3500;
+                font-size: 14px;
+                margin: 0 25px 90px 30px;
+                width: 200px;
+            }
+    
+            >.wrap6{
+                color: #6E3500;
+                font-size: 14px;
+                margin: 0 25px 70px 30px;
+                width: 200px;
+            }
+        }
     }
+//     .content .right{
+//         display: none;
+//     }
+
 }
