@@ -98,6 +98,14 @@
         height: 900px;
         width: 480px;
 
+        // .line1{
+        //     width: 120px; border: 1px solid #000; margin: 30px 0 35px 40px;
+        // }
+
+        .line2{
+            width: 120px; border: 1px solid #000; margin: 20px 0 35px 40px;
+        }
+
         >div{
             >p{
                 color: #6E3500;
@@ -169,6 +177,9 @@
         margin: 0 0;
         height: 900px;
         width: 240px;
+        .line3{
+            width: 120px; border: 1px solid #000; margin: 20px 0 35px 40px;
+        }
         >p{
             color: #6E3500;
             font-size: 24px;
@@ -209,7 +220,7 @@
             width: 100%;
             height: 40%;
             position: inherit;
-            margin-left: 25%;
+            margin: 15px 0 -30px 25%;
 
             img {
                 vertical-align : middle;
@@ -222,38 +233,64 @@
             justify-content: center;
             width: 100%;
 
-            .main_medium {
-                display: flex;
-                justify-content: center;
-                margin: 0 19%;
+            .main_top{
+                font-size: 36px;
+                color: #fff;
+                margin: 10px 0 5px 0;
+                text-align: center;
             }
 
+            // .main_medium {
+            //     display: flex;
+            //     justify-content: center;
+            //     margin: 0 19%;
+            // }
+            .main_medium{
+                background-color: #FFDCBB;
+                color: #6F3500;
+                font-size: 20px;
+                width: 200px;
+                text-align: center;
+                margin: 0 auto;
+            }
             .main_buttom {
+                font-size: 15px;
                 width: 100%;
-                margin: 20px 20px;
-
-                .main_buttom_content {
-                    width: 100%;
+                margin: 15px 20px 5px 30px;
+            }
+            
+            
+            .main_buttom{
+                display: flex;
+                flex-wrap: wrap;
+                position: relative;
+                margin-left: 35px;
+            }
+            .main_buttom_content{
+                display: flex;
+                width: 40%;
+                margin-left: 60px;
+                margin-top: -5px;
+                margin-bottom: 15px;
+                .phone{
+                    width: 20px;
+                    height: 20px;
+                }
+                .mail{
+                    width: 20px;
+                    height: 20px;
+                }
+                .gender{
+                    width: 20px;
+                    height: 20px;
+                }
+                .school{
+                    width: 20px;
+                    height: 20px;
                 }
             }
         }
-        // .main_top{
-        //     font-size: 42px;
-        //     color: #fff;
-        //     margin-left: 50%;
-        //     text-align: center;
-        // }
-        // .main_medium{
-        //     background-color: #FFDCBB;
-        //     color: #6F3500;
-        //     font-size: 22px;
-        //     width: 200px;
-        //     text-align: center;
-        //     margin-left: 35%;
-        // }
-
     }
-
 
     .content{
         display: flex;
@@ -272,11 +309,20 @@
             height: auto;
             width: 100%;
     
+            .line1{
+                width: 120px; border: 1px solid #000;
+                margin: 25px 0 15px 40px;
+            }
+
+            .line2{
+                display: none;
+            }
+            
             >div{
                 >p{
                     color: #6E3500;
-                    font-size: 24px;
-                    margin: 35px 45px;
+                    font-size: 20px;
+                    margin: 30px 45px;
                 }
     
                 .wrap1{
@@ -300,8 +346,8 @@
                 .wrap2{
                     color: #6E3500;
                     width: 80%;
-                    margin: 0 40px 40px 40px;
-                    font-size: 18px;
+                    margin: 0 auto;
+                    font-size: 14px;
                     letter-spacing: 0.5px;
                     line-height: 24px;
     
@@ -309,33 +355,26 @@
                         color: #fff;
                         background-color: #FFAA64;
                         border-radius: 5px;
-                        width: 90%;
-                        height: 6%;
-                        padding: 15px;
-                        margin: -15px 10px 30px 0;
+                        width: 100%;
+                        height: 5%;
+                        padding-left: 20px;
+                        padding-right: 10px;
+                        margin: -10px 0 30px -15px;
                         letter-spacing: 0px;
-                        line-height: 26px;
+                        line-height: 25px;
                     }
-                }
-    
-                .wrap3{
-                    display: flex; /*宣告為彈性佈局元素*/
-                    flex-wrap: wrap;
-                    // padding: 0 3px;
-                    text-align: center;
-    
                     >div{
-                        width: 150px;
-                        margin: -20px 40px 15px 40px;
-                        >img{
-                            width: 100px;
-                            height: 100px;
-                        }
-                        >div>a{
-                            color: #6E3500;
-                        }
+                        display: none;
                     }
                 }
+
+                /* 在一行代碼中隱藏兩個元素 */
+                // .element1, .element2 {
+                //     display: none;
+                // }
+            }
+            .drop{
+                display: none;
             }
         }
         .right{
@@ -343,30 +382,40 @@
             margin: 0 0;
             height: 900px;
             width: 100%;
+
+            .line1{
+                width: 120px; border: 1px solid #000;
+                margin: 25px 0 15px 40px;
+            }
+            
+            .drop{
+                display: none;
+            }
+            
             >p{
                 color: #6E3500;
-                font-size: 24px;
-                margin: 70px 45px 10px 30px;
+                font-size: 20px;
+                margin: 20px 45px 10px 45px;
             }
-    
+            
             >.wrap4{
                 color: #6E3500;
-                font-size: 14px;
-                margin: 10px 40px 80px 30px;
+                font-size: 13px;
+                margin: 10px 40px 35px 45px;
                 width: 200px;
             }
     
             >.wrap5{
                 color: #6E3500;
                 font-size: 14px;
-                margin: 0 25px 90px 30px;
+                margin: 0 25px 40px 45px;
                 width: 200px;
             }
     
             >.wrap6{
                 color: #6E3500;
                 font-size: 14px;
-                margin: 0 25px 70px 30px;
+                margin: 0 25px 70px 45px;
                 width: 200px;
             }
         }
