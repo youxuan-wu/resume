@@ -229,14 +229,8 @@
   }
   .main .main_left .main_buttom {
     font-size: 15px;
-    width: 100%;
+    width: 105%;
     margin: 15px 20px 5px 30px;
-  }
-  .main .main_left .main_buttom {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    margin-left: 35px;
   }
   .main .main_left .main_buttom_content {
     display: flex;
