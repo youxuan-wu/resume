@@ -75,6 +75,9 @@
   margin: 25px;
   text-align: center;
   line-height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  /* 將圖片縮放以完整顯示在容器內，保持寬高比。這可能會導致容器有空白區域。 */
 }
 
 .content {
@@ -151,7 +154,7 @@
   margin: -20px 40px 15px 40px;
 }
 .content .mid > div .wrap3 > div > img {
-  width: 100px;
+  width: 150px;
   height: 100px;
 }
 .content .mid > div .wrap3 > div > div > a {
