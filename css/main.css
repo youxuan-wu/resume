@@ -107,10 +107,12 @@
   color: #6E3500;
   font-size: 24px;
   margin: 35px 45px;
+  font-weight: bold;
 }
 .content .mid > div .wrap1 {
   display: flex; /*宣告為彈性佈局元素*/
   flex-wrap: wrap;
+  margin-top: -20px;
   padding: 0 40px;
 }
 .content .mid > div .wrap1 > div {
@@ -150,15 +152,23 @@
   text-align: center;
 }
 .content .mid > div .wrap3 > div {
-  width: 150px;
+  width: 140px;
   margin: -20px 40px 15px 40px;
 }
 .content .mid > div .wrap3 > div > img {
-  width: 150px;
+  width: 180px;
   height: 100px;
+  border-radius: 5px;
+}
+.content .mid > div .wrap3 > div > div {
+  width: 180px;
 }
 .content .mid > div .wrap3 > div > div > a {
   color: #6E3500;
+  text-decoration: none;
+}
+.content .mid > div .wrap3 > div > div > a:hover {
+  border-bottom: 1px solid #6E3500;
 }
 .content .right {
   background-color: #FFDCBB;
